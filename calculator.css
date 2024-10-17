@@ -1,0 +1,33 @@
+@import "compass/css3";
+
+.contact-title{ 
+  
+  margin: 0px auto;
+  display:table;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+input,label {
+  display:flex;
+  flex-direction:column;
+}  
+
+.form-label{font-weight: bold;}
+
+#Submit{color: #fff;
+background-color: #2564a3;
+width: 100%;
+}
+
+.form-inline{
+  display:flex;
+  flex-direction:row;
+}
+
+ /* .answer{
+  display:flex;
+  justify-content: center;
+  
+}  */
